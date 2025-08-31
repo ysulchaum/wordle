@@ -1,0 +1,97 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.mode-selection {
+  display: flex;
+  justify-content: space-around;
+  margin: 2em 0;
+}
+
+.single-player-button {
+  flex: 1;
+  padding: 1em;
+  border: 1px solid #ccc;
+  background-color: chartreuse;
+  margin: 0 1em;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.single-player-button:hover {
+  background-color: #7fdb1d;
+}
+
+.multi-player-button {
+  flex: 1;
+  padding: 1em;
+  border: 1px solid #ccc;
+  background-color: lightblue;
+  margin: 0 1em;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.multi-player-button:hover {
+  background-color: #3eb0d5;
+}
+
+.create-game-button {
+  flex: 1;
+  padding: 1em;
+  border: 1px solid #ccc;
+  background-color: lightblue;
+  margin: 0 1em;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.create-game-button:hover {
+  background-color: #3eb0d5;
+}
+
+.join-game-button {
+  flex: 1;
+  padding: 1em;
+  border: 1px solid #ccc;
+  background-color: lightblue;
+  margin: 0 1em;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.join-game-button:hover {
+  background-color: #3eb0d5;
+}
+
+.logout-button {
+  padding: 1em 2em;
+  border: 1px solid #ccc;
+  background-color: lightcoral;
+  margin: 0 auto;
+  cursor: pointer;
+  width: 100px;
+  flex: none;
+  display: block;
+}
+.logout-button:hover {
+  background-color: #d9534f;
+}
+
+.game-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.game-title h2 {
+  margin: 0;
+  margin-right: 1em;
+}
+
+.game-title button {
+  background-color: rgb(199, 199, 199);
+}
+.game-title button:hover {
+  background-color: rgb(94, 93, 93);
+}
